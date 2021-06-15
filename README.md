@@ -29,11 +29,21 @@ The code is on src/ folder
 
 # How to run
 
+## Docker
+
+```docker
+docker-compose up
+```
+
+## Manual
+
 1. Install dependencies
 
 ```bash
-    yarn
+    yarn install
+
     or
+
     npm i
 ```
 
@@ -46,9 +56,21 @@ The code is on src/ folder
 3. Run command
 
 ```bash
-    yarn server:dev
-    or
-    yarn server
+    cd server && yarn server:dev
 ```
 
 4. Go to localhost:3000
+
+# Run tests
+
+## Backend
+
+```bash
+    yarn test:server
+```
+
+## Frotend
+
+```bash
+    yarn test
+```

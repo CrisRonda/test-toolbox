@@ -1,0 +1,23 @@
+{
+  "name": "testing-server",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "yarn mocha test/api.test.js",
+    "dev": "yarn nodemon index.js",
+    "server": "node index.js"
+  },
+  "devDependencies": {
+    "chai": "4.3.4",
+    "mocha": "9.0.0",
+    "nodemon": "^2.0.7",
+    "supertest": "6.1.3"
+  }
+}
