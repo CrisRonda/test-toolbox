@@ -1,0 +1,8 @@
+export const WORD_TYPES = {
+  SET_WORDS: 'SET_WORDS',
+};
+
+export const UI_TYPES = {
+  SHOW_LOADING: 'SHOW_LOADING',
+  HIDE_LOADING: 'HIDE_LOADING',
+};
